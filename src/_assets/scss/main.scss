@@ -1,0 +1,64 @@
+@import "bootstrap";
+@import "theme1";
+
+$base-color-primaryTint: #0d6efd;
+$base-color-secTint: #EEFE55;
+$base-color-background1: #222222;
+$base-color-background2: #1D1C1C;
+$base-color-text: #DCDCDC;
+$base-color-text1: #9C9C9C;
+$base-color-text2: #FEFEFE;
+$base-color-frame: #9C9C9C;
+$base-color-frame1: #0d6efd;
+
+
+.app1{
+  width: 808px;
+  height: 576px;
+}
+
+.downloadbutton{
+  width: 200px;
+
+  height: auto;
+}
+
+// Custom styles
+[aria-current="page"] {
+  @extend .text-decoration-underline;
+}
+
+
+body {
+  background-color:$base-color-background1;
+  color:$base-color-text;
+}
+
+a {
+  color: $base-color-text2;
+}
+
+.btn-primary {
+  color: $base-color-text2;
+  background-color: $base-color-primaryTint;
+  border-color: $base-color-frame1;
+}
+
+.bg-primary {
+    background-color: $base-color-background2 !important;
+}
+
+.bg-secondary {
+  background-color: $base-color-background1 !important;
+}
+
+.card{
+  background-color: $base-color-frame;
+}
+
+.card-header{
+  background-color: $base-color-background1 !important;
+}
+.card-body{
+  background-color: $base-color-background2 !important;
+}

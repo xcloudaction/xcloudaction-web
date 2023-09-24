@@ -253,6 +253,12 @@ main a:hover {
   margin: auto;
 }
 
+.download_app {
+  text-align: center;
+  margin: auto;
+  width: 250px;
+}
+
 .hero h2 {
   max-width: 700px;
   font-size: 80px;

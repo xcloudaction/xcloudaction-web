@@ -1,17 +1,11 @@
 name: Docker Slim
 
 #Only trigger, when the build workflow succeeded
-on:
-  workflow_run:
-    workflows: ["Docker Image CI"]
-    types:
-      - completed
-
-# on: 
-#   push:
-#     branches: 
-#       - 'master'
-
+on: 
+  push:
+    branches: 
+      - main
+ 
 jobs: 
   build:
     runs-on: ubuntu-latest

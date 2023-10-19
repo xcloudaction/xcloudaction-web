@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://xcloudaction.com/sitemap.xml

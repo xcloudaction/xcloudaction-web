@@ -2,6 +2,8 @@
 layout: page
 title: Privacy Policy
 permalink: /privacypolicy
+redirects:
+  - /privacypolicy/ 
 ---
 
 # XCloud Action Privacy Policy

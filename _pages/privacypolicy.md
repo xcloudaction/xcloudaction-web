@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-permalink: /privacypolicy
-redirects:
-  - /privacypolicy/ 
+permalink: /privacypolicy 
 ---
 
 # XCloud Action Privacy Policy

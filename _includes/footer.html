@@ -1,6 +1,7 @@
 <footer>
   <div>
-    <a href="index.html"><img src="assets/img/xcloudaction-logo.svg" class="logo"></a>
+   
+    <a href="index.html"><img src= "{{ 'assets/img/xcloudaction-logo.svg' | relative_url | bust_file_cache }}" class="logo"></a>
     <div class="copyright">Copyright &copy; 2023 AppBieger<br>All rights reserved.</div>
  
   </div>
@@ -13,3 +14,5 @@
 <script type="text/javascript">
         AOS.init({duration: 1000, once: true});
     </script>
+
+    
